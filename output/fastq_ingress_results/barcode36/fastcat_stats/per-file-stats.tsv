@@ -1,0 +1,6 @@
+filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
+barcode36/fastq_runid_6dd19271344b5a88ed4ae157e0b45c4e4c5b276d_0.fastq	barcode36	4000	2270586	151	1478	12.10
+barcode36/fastq_runid_6dd19271344b5a88ed4ae157e0b45c4e4c5b276d_1.fastq	barcode36	4000	2197449	142	1564	12.04
+barcode36/fastq_runid_6dd19271344b5a88ed4ae157e0b45c4e4c5b276d_2.fastq	barcode36	4000	2290861	137	4776	12.06
+barcode36/fastq_runid_6dd19271344b5a88ed4ae157e0b45c4e4c5b276d_3.fastq	barcode36	4000	2285933	157	1906	12.11
+barcode36/fastq_runid_6dd19271344b5a88ed4ae157e0b45c4e4c5b276d_4.fastq	barcode36	3422	1937244	140	2237	12.10

@@ -1,0 +1,2 @@
+filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
+barcode93/reads.fastq	barcode93	2369	2477333	155	3301	13.22

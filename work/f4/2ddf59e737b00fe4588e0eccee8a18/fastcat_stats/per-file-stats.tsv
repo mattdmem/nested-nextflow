@@ -1,0 +1,16 @@
+filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
+barcode08/FAS85214_pass_barcode08_53d112c1_0.fastq.gz	barcode08	4000	2095041	104	1374	12.50
+barcode08/FAS85214_pass_barcode08_53d112c1_1.fastq.gz	barcode08	4000	2153925	113	1473	12.47
+barcode08/FAS85214_pass_barcode08_53d112c1_10.fastq.gz	barcode08	4000	2244857	133	1371	12.41
+barcode08/FAS85214_pass_barcode08_53d112c1_11.fastq.gz	barcode08	4000	2215906	110	1334	12.40
+barcode08/FAS85214_pass_barcode08_53d112c1_12.fastq.gz	barcode08	4000	2248536	109	1350	12.34
+barcode08/FAS85214_pass_barcode08_53d112c1_13.fastq.gz	barcode08	4000	2235901	109	1347	12.29
+barcode08/FAS85214_pass_barcode08_53d112c1_14.fastq.gz	barcode08	1412	805534	111	1306	12.28
+barcode08/FAS85214_pass_barcode08_53d112c1_2.fastq.gz	barcode08	4000	2148641	112	1330	12.55
+barcode08/FAS85214_pass_barcode08_53d112c1_3.fastq.gz	barcode08	4000	2196378	97	1329	12.53
+barcode08/FAS85214_pass_barcode08_53d112c1_4.fastq.gz	barcode08	4000	2196314	130	1332	12.48
+barcode08/FAS85214_pass_barcode08_53d112c1_5.fastq.gz	barcode08	4000	2216683	105	1721	12.51
+barcode08/FAS85214_pass_barcode08_53d112c1_6.fastq.gz	barcode08	4000	2231734	105	1306	12.49
+barcode08/FAS85214_pass_barcode08_53d112c1_7.fastq.gz	barcode08	4000	2236537	106	1479	12.49
+barcode08/FAS85214_pass_barcode08_53d112c1_8.fastq.gz	barcode08	4000	2214420	127	1331	12.48
+barcode08/FAS85214_pass_barcode08_53d112c1_9.fastq.gz	barcode08	4000	2236012	113	1343	12.47

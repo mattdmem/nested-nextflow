@@ -1,0 +1,61 @@
+Jun-12 14:39:30.031 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+Jun-12 14:39:30.097 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.09.2-edge
+Jun-12 14:39:30.116 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/Matt.Parker/.nextflow/plugins; core-plugins: nf-amazon@1.10.2,nf-azure@0.14.0,nf-codecommit@0.1.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.4.2,nf-tower@1.5.2,nf-wave@0.4.1
+Jun-12 14:39:30.126 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-12 14:39:30.127 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-12 14:39:30.131 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jun-12 14:39:30.140 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-12 14:39:30.160 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:39:30.161 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:39:30.180 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-12 14:39:30.793 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jun-12 14:39:30.805 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [stoic_goldberg] DSL2 - revision: ca9f4d12eb
+Jun-12 14:39:30.806 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-12 14:39:30.806 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jun-12 14:39:30.812 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/Matt.Parker/.nextflow/secrets/store.json
+Jun-12 14:39:30.814 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@e29f4f6] - activable => nextflow.secret.LocalSecretsProvider@e29f4f6
+Jun-12 14:39:30.866 [main] DEBUG nextflow.Session - Session UUID: ecc7d1b9-2f97-42e1-ada6-567f4333ce14
+Jun-12 14:39:30.866 [main] DEBUG nextflow.Session - Run name: stoic_goldberg
+Jun-12 14:39:30.866 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jun-12 14:39:30.919 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.09.2-edge build 5765
+  Created: 07-09-2022 19:45 UTC (20:45 BST)
+  System: Mac OS X 11.5
+  Runtime: Groovy 3.0.12 on OpenJDK 64-Bit Server VM 11.0.11+9
+  Encoding: UTF-8 (UTF-8)
+  Process: 32005@C02GM332MD6R [192.168.0.18]
+  CPUs: 12 - Mem: 32 GB (252.9 MB) - Swap: 15 GB (712.8 MB)
+Jun-12 14:39:30.930 [main] DEBUG nextflow.Session - Work-dir: /Users/Matt.Parker/wc/nested-nextflow/work [Mac OS X]
+Jun-12 14:39:30.931 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/Matt.Parker/wc/nested-nextflow/bin
+Jun-12 14:39:30.940 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-12 14:39:30.948 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-12 14:39:30.979 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-12 14:39:30.988 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jun-12 14:39:31.044 [main] DEBUG nextflow.Session - Session start
+Jun-12 14:39:31.048 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/Matt.Parker/wc/nested-nextflow/output/execution/trace.txt
+Jun-12 14:39:31.057 [main] DEBUG nextflow.Session - Using default localLib path: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:39:31.061 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:39:31.061 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib/nfcore_external_java_deps.jar
+Jun-12 14:39:32.030 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-12 14:39:32.039 [main] DEBUG nextflow.Session - Session aborted -- Cause: Anonymous module inclusion is deprecated -- Replace `include './wf-template/main.nf'` with `include { MODULE_NAME } from './wf-template/main.nf'`
+Jun-12 14:39:32.052 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.DeprecationException: Anonymous module inclusion is deprecated -- Replace `include './wf-template/main.nf'` with `include { MODULE_NAME } from './wf-template/main.nf'`
+	at nextflow.script.IncludeDef.<init>(IncludeDef.groovy:64)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at Script_1b837bb7.runScript(Script_1b837bb7:5)
+	at nextflow.script.BaseScript.runDsl2(BaseScript.groovy:170)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:217)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:230)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:226)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:132)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:354)
+	at nextflow.cli.Launcher.run(Launcher.groovy:487)
+	at nextflow.cli.Launcher.main(Launcher.groovy:646)

@@ -1,0 +1,123 @@
+Jun-12 14:36:52.792 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+Jun-12 14:36:52.857 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.09.2-edge
+Jun-12 14:36:52.873 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/Matt.Parker/.nextflow/plugins; core-plugins: nf-amazon@1.10.2,nf-azure@0.14.0,nf-codecommit@0.1.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.4.2,nf-tower@1.5.2,nf-wave@0.4.1
+Jun-12 14:36:52.882 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-12 14:36:52.883 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-12 14:36:52.886 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jun-12 14:36:52.893 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-12 14:36:52.912 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:36:52.912 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:36:52.930 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-12 14:36:53.532 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jun-12 14:36:53.544 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [cheeky_austin] DSL2 - revision: 59edda8cdd
+Jun-12 14:36:53.545 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-12 14:36:53.545 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jun-12 14:36:53.551 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/Matt.Parker/.nextflow/secrets/store.json
+Jun-12 14:36:53.553 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4a1a256d] - activable => nextflow.secret.LocalSecretsProvider@4a1a256d
+Jun-12 14:36:53.606 [main] DEBUG nextflow.Session - Session UUID: a8b083bd-af94-482d-971d-6bb45c758cf2
+Jun-12 14:36:53.606 [main] DEBUG nextflow.Session - Run name: cheeky_austin
+Jun-12 14:36:53.606 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jun-12 14:36:53.659 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.09.2-edge build 5765
+  Created: 07-09-2022 19:45 UTC (20:45 BST)
+  System: Mac OS X 11.5
+  Runtime: Groovy 3.0.12 on OpenJDK 64-Bit Server VM 11.0.11+9
+  Encoding: UTF-8 (UTF-8)
+  Process: 31909@C02GM332MD6R [192.168.0.18]
+  CPUs: 12 - Mem: 32 GB (337.1 MB) - Swap: 15 GB (706.8 MB)
+Jun-12 14:36:53.670 [main] DEBUG nextflow.Session - Work-dir: /Users/Matt.Parker/wc/nested-nextflow/work [Mac OS X]
+Jun-12 14:36:53.670 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/Matt.Parker/wc/nested-nextflow/bin
+Jun-12 14:36:53.680 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-12 14:36:53.688 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-12 14:36:53.724 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-12 14:36:53.734 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jun-12 14:36:53.795 [main] DEBUG nextflow.Session - Session start
+Jun-12 14:36:53.798 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/Matt.Parker/wc/nested-nextflow/output/execution/trace.txt
+Jun-12 14:36:53.806 [main] DEBUG nextflow.Session - Using default localLib path: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:36:53.809 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:36:53.810 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib/nfcore_external_java_deps.jar
+Jun-12 14:36:54.573 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-12 14:36:55.533 [main] WARN  nextflow.Nextflow - Found unexpected parameters:
+* --process_label: wftemplate
+Jun-12 14:36:55.534 [main] INFO  nextflow.Nextflow - - [2mIgnore this warning: params.schema_ignore_params = "process_label" [0m
+Jun-12 14:36:55.542 [main] INFO  nextflow.Nextflow - 
+[0;92m||||||||||   [0m[2m_____ ____ ___ ____  __  __ _____      _       _
+[0;92m||||||||||  [0m[2m| ____|  _ \_ _|___ \|  \/  | ____|    | | __ _| |__  ___
+[0;33m|||||       [0m[2m|  _| | |_) | |  __) | |\/| |  _| _____| |/ _` | '_ \/ __|
+[0;33m|||||       [0m[2m| |___|  __/| | / __/| |  | | |__|_____| | (_| | |_) \__ \
+[0;94m||||||||||  [0m[2m|_____|_|  |___|_____|_|  |_|_____|    |_|\__,_|_.__/|___/
+[0;94m||||||||||  [0m[1mwf-template v4.0.0[0m
+[2m--------------------------------------------------------------------------------[0m
+[1mCore Nextflow options[0m
+  [0;34mrunName        : [0;32mcheeky_austin[0m
+  [0;34mcontainerEngine: [0;32mdocker[0m
+  [0;34mlaunchDir      : [0;32m/Users/Matt.Parker/wc/nested-nextflow[0m
+  [0;34mworkDir        : [0;32m/Users/Matt.Parker/wc/nested-nextflow/work[0m
+  [0;34mprojectDir     : [0;32m/Users/Matt.Parker/wc/nested-nextflow[0m
+  [0;34muserName       : [0;32mMatt.Parker[0m
+  [0;34mprofile        : [0;32mstandard[0m
+  [0;34mconfigFiles    : [0;32m/Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config[0m
+
+[1mInput Options[0m
+  [0;34mfastq          : [0;32m/Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq[0m
+
+[1mOther parameters[0m
+  [0;34mprocess_label  : [0;32mwftemplate[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+[2m--------------------------------------------------------------------------------[0m
+If you use epi2me-labs/wf-template for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+
+[2m--------------------------------------------------------------------------------[0m
+This is epi2me-labs/wf-template v4.0.0.
+[2m--------------------------------------------------------------------------------[0m
+Jun-12 14:36:55.551 [main] DEBUG nextflow.Session - Session aborted -- Cause: Strings must not be null
+Jun-12 14:36:55.941 [main] ERROR nextflow.cli.Launcher - Strings must not be null
+java.lang.IllegalArgumentException: Strings must not be null
+	at org.apache.commons.lang.StringUtils.getLevenshteinDistance(StringUtils.java:6256)
+	at org.apache.commons.lang.StringUtils$getLevenshteinDistance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.apache.commons.lang.StringUtils$getLevenshteinDistance.call(Unknown Source)
+	at nextflow.extension.Bolts$_closest_closure8.doCall(Bolts.groovy:737)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:274)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:428)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2359)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2344)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2385)
+	at org.codehaus.groovy.runtime.dgm$202.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:247)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nextflow.extension.Bolts.closest(Bolts.groovy:736)
+	at nextflow.exception.MissingModuleComponentException.message(MissingModuleComponentException.groovy:23)
+	at nextflow.exception.MissingModuleComponentException.<init>(MissingModuleComponentException.groovy:16)
+	at nextflow.script.ScriptMeta.addModule(ScriptMeta.groovy:309)
+	at nextflow.script.ScriptMeta.addModule(ScriptMeta.groovy:300)
+	at nextflow.script.IncludeDef.load0(IncludeDef.groovy:127)
+	at nextflow.script.IncludeDef$load0$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at Script_8b9d7e23.runScript(Script_8b9d7e23:5)
+	at nextflow.script.BaseScript.runDsl2(BaseScript.groovy:170)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:217)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:230)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:226)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:132)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:354)
+	at nextflow.cli.Launcher.run(Launcher.groovy:487)
+	at nextflow.cli.Launcher.main(Launcher.groovy:646)

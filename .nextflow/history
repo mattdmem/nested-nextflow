@@ -1,0 +1,26 @@
+2023-06-12 14:22:47	-	festering_raman	-	5ac20caf0f3216a7c258798da52bf569	d1b7ac32-3cc4-4f3c-a44d-bc93c0beeff8	nextflow run main.nf
+2023-06-12 14:23:06	-	insane_jang	-	9ac21d4e9777dc69ca16150008e6ab44	13b66268-51bb-4c51-a5ca-436e958ceb71	nextflow run main.nf
+2023-06-12 14:26:06	-	magical_waddington	-	44f2b92d3e5b584a31cd2a52f69abe99	087d89f2-7d83-409b-8f07-e4a5f1dda7ea	nextflow run main.nf
+2023-06-12 14:28:54	-	agitated_meitner	-	44f2b92d3e5b584a31cd2a52f69abe99	61d2f07d-543c-4251-9f83-9f343c7298a6	nextflow run main.nf
+2023-06-12 14:29:22	-	jovial_pike	-	44f2b92d3e5b584a31cd2a52f69abe99	b8e35321-cdc3-4343-a235-c07425f87511	nextflow run main.nf
+2023-06-12 14:29:51	-	berserk_fourier	-	44f2b92d3e5b584a31cd2a52f69abe99	d38b7a70-ce6c-417c-894a-d80b2f37fd70	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08
+2023-06-12 14:30:22	-	kickass_meninsky	-	44f2b92d3e5b584a31cd2a52f69abe99	07bfda36-0c9c-4c6c-80fe-df0214c14c54	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08
+2023-06-12 14:30:52	-	shrivelled_hodgkin	-	44f2b92d3e5b584a31cd2a52f69abe99	59badc95-eea9-4312-84a9-c5fd7c68588a	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:31:03	-	hopeful_ampere	-	44f2b92d3e5b584a31cd2a52f69abe99	da085383-b23d-4bc8-babb-2a265a0b6fb2	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:32:58	-	infallible_moriondo	-	9e4fc598f3d8dd61cbad80919f7533b7	2eb90110-328e-449a-8f5a-b21482923056	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:33:08	-	distracted_tesla	-	b66caed90b888c0609df2e641cfc27a2	4561c74b-53e7-4f96-b68d-324d330fdd9d	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:33:57	-	elegant_baekeland	-	9049535f8d88a54abb625e944db25048	9d6ab0a6-dfc1-455c-98e2-4a4710175f81	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:34:39	-	voluminous_nobel	-	59edda8cdd001453c28b51e6f5149fd8	2d9b525f-e9fe-4d65-95d0-0ea6d0de7b2b	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq/barcode08 -c wf-template/nextflow.config
+2023-06-12 14:35:04	-	insane_panini	-	59edda8cdd001453c28b51e6f5149fd8	e1f6dac2-6ef7-4a5c-bd99-32b1dd222f2d	nextflow run main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:35:12	-	shrivelled_sinoussi	-	59edda8cdd001453c28b51e6f5149fd8	3f704722-905d-4bba-93e4-490dc24ec5c4	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:35:49	-	romantic_davinci	-	59edda8cdd001453c28b51e6f5149fd8	1c66440a-bf5d-4e63-9f56-82392548192b	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:36:20	-	sleepy_pauling	-	59edda8cdd001453c28b51e6f5149fd8	f8133925-5363-47b1-b276-5bf7f1d76a32	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:36:45	-	trusting_raman	-	59edda8cdd001453c28b51e6f5149fd8	4c60e35e-c87a-439f-bf9a-1f099dd3ccfd	nextflow main.nf -c wf-template/nextflow.config
+2023-06-12 14:36:53	-	cheeky_austin	-	59edda8cdd001453c28b51e6f5149fd8	a8b083bd-af94-482d-971d-6bb45c758cf2	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:37:19	-	amazing_mclean	-	59edda8cdd001453c28b51e6f5149fd8	51f1186d-ac67-40da-b2a5-c4c7d9a44696	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:38:36	-	cheesy_mestorf	-	579f22cea37fbab8854a6630887321c2	e3e3a3ff-ad54-4990-be1d-3685bba91840	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:39:30	-	stoic_goldberg	-	ca9f4d12eb6ffa166fba5621615a7c58	ecc7d1b9-2f97-42e1-ada6-567f4333ce14	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:40:08	-	jolly_bassi	-	c758ed97280d900ad7101947b3169fe8	b2a00894-7228-4dbc-9c63-fb8d28bf391c	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:41:21	-	trusting_swanson	-	9660d42de68180f15da5929ce9f58ea9	c681966e-e618-4866-b0f3-2719586b33db	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:42:09	39.5s	cranky_lattes	ERR	261514d193bbd0f5f7f520238d6d9974	73b392f2-c587-47c9-a98c-87e77d681e50	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config
+2023-06-12 14:52:02	1m 7s	intergalactic_hawking	OK	261514d193bbd0f5f7f520238d6d9974	554efd1e-38e9-4acd-8705-d8e81c38d821	nextflow main.nf --fastq /Users/Matt.Parker/wc/wf-tb-amr/test_data/fastq -c wf-template/nextflow.config

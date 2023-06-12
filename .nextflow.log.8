@@ -1,0 +1,44 @@
+Jun-12 14:36:44.643 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf -c wf-template/nextflow.config
+Jun-12 14:36:44.707 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.09.2-edge
+Jun-12 14:36:44.724 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/Matt.Parker/.nextflow/plugins; core-plugins: nf-amazon@1.10.2,nf-azure@0.14.0,nf-codecommit@0.1.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.4.2,nf-tower@1.5.2,nf-wave@0.4.1
+Jun-12 14:36:44.733 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-12 14:36:44.734 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-12 14:36:44.737 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jun-12 14:36:44.745 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-12 14:36:44.763 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:36:44.763 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/Matt.Parker/wc/nested-nextflow/wf-template/nextflow.config
+Jun-12 14:36:44.780 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-12 14:36:45.405 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jun-12 14:36:45.420 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [trusting_raman] DSL2 - revision: 59edda8cdd
+Jun-12 14:36:45.420 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-12 14:36:45.420 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jun-12 14:36:45.427 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/Matt.Parker/.nextflow/secrets/store.json
+Jun-12 14:36:45.430 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@134f8ef6] - activable => nextflow.secret.LocalSecretsProvider@134f8ef6
+Jun-12 14:36:45.486 [main] DEBUG nextflow.Session - Session UUID: 4c60e35e-c87a-439f-bf9a-1f099dd3ccfd
+Jun-12 14:36:45.486 [main] DEBUG nextflow.Session - Run name: trusting_raman
+Jun-12 14:36:45.486 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jun-12 14:36:45.543 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.09.2-edge build 5765
+  Created: 07-09-2022 19:45 UTC (20:45 BST)
+  System: Mac OS X 11.5
+  Runtime: Groovy 3.0.12 on OpenJDK 64-Bit Server VM 11.0.11+9
+  Encoding: UTF-8 (UTF-8)
+  Process: 31881@C02GM332MD6R [192.168.0.18]
+  CPUs: 12 - Mem: 32 GB (310.2 MB) - Swap: 15 GB (706.8 MB)
+Jun-12 14:36:45.553 [main] DEBUG nextflow.Session - Work-dir: /Users/Matt.Parker/wc/nested-nextflow/work [Mac OS X]
+Jun-12 14:36:45.554 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/Matt.Parker/wc/nested-nextflow/bin
+Jun-12 14:36:45.564 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-12 14:36:45.573 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-12 14:36:45.603 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-12 14:36:45.612 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jun-12 14:36:45.669 [main] DEBUG nextflow.Session - Session start
+Jun-12 14:36:45.673 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/Matt.Parker/wc/nested-nextflow/output/execution/trace.txt
+Jun-12 14:36:45.681 [main] DEBUG nextflow.Session - Using default localLib path: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:36:45.685 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib
+Jun-12 14:36:45.685 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/Matt.Parker/wc/nested-nextflow/lib/nfcore_external_java_deps.jar
+Jun-12 14:36:46.568 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-12 14:36:47.320 [main] ERROR nextflow.Nextflow - ERROR: Validation of pipeline parameters failed!
+Jun-12 14:36:47.327 [main] ERROR nextflow.Nextflow - * Missing required parameter: --fastq
+Jun-12 14:36:47.330 [main] WARN  nextflow.Nextflow - Found unexpected parameters:
+* --process_label: wftemplate
+Jun-12 14:36:47.330 [main] INFO  nextflow.Nextflow - - [2mIgnore this warning: params.schema_ignore_params = "process_label" [0m
