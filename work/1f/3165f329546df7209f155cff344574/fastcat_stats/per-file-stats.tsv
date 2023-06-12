@@ -1,3 +1,0 @@
-filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
-barcode52/FAS85214_pass_barcode52_53d112c1_0.fastq.gz	barcode52	4000	2721520	99	1692	12.92
-barcode52/FAS85214_pass_barcode52_53d112c1_1.fastq.gz	barcode52	2711	1862190	91	1404	12.63

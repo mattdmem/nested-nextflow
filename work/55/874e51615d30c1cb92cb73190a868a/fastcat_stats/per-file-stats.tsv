@@ -1,7 +1,0 @@
-filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
-barcode67/FAT75356_pass_barcode67_6d4e66af_0.fastq.gz	barcode67	4000	2316041	108	1379	12.34
-barcode67/FAT75356_pass_barcode67_6d4e66af_1.fastq.gz	barcode67	4000	2314526	145	1435	12.30
-barcode67/FAT75356_pass_barcode67_6d4e66af_2.fastq.gz	barcode67	4000	2317136	134	1428	12.29
-barcode67/FAT75356_pass_barcode67_6d4e66af_3.fastq.gz	barcode67	4000	2306041	104	1612	12.40
-barcode67/FAT75356_pass_barcode67_6d4e66af_4.fastq.gz	barcode67	4000	2318232	92	1914	12.45
-barcode67/FAT75356_pass_barcode67_6d4e66af_5.fastq.gz	barcode67	4000	2329880	151	1529	12.45
