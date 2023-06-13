@@ -7,7 +7,7 @@
     "url": "https://github.com/epi2me-labs/wf-template",
     "type": "object",
     "definitions": {
-        "$ref": "wf-template/nextflow_schema/definitions"
+        "$ref": "wf-template/nextflow_schema.json#/definitions"
     },
     "allOf": [
         {
